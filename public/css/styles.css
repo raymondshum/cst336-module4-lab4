@@ -1,5 +1,5 @@
 body {
-  min-height: 100vh ;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -9,16 +9,16 @@ header {
 }
 
 footer {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-align: right;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 main {
   flex: 1;
 }
 
-#content{
+#content {
   margin-top: 1rem;
 }
 
@@ -30,25 +30,28 @@ main {
   max-width: 300px;
 }
 
-.active::before{
-  content:"[";
+.active::before {
+  content: "[";
 }
 
-.active::after{
-  content:"]";
+.active::after {
+  content: "]";
 }
 
-.active{
-  color:red;
+.active {
+  color: red;
 }
 
-footer div{
+nav a:hover{
+  text-decoration: underline solid black;
+}
+
+footer div {
   align-self: center;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   footer {
     font-size: 2vw;
   }
 }
-
