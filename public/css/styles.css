@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Space+Mono:wght@700&display=swap');
+
 body {
   min-height: 100vh;
   display: flex;
@@ -5,6 +7,7 @@ body {
 }
 
 header {
+  font-family: 'Space Mono', monospace;
   text-align: center;
 }
 
@@ -42,7 +45,7 @@ main {
   color: red;
 }
 
-nav a:hover{
+nav a:hover {
   text-decoration: underline solid black;
 }
 

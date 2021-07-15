@@ -17,15 +17,17 @@ app.get('/', (req, res) => {
 });
 
 app.get('/sun', (req,res)=> {
-  randomImage(req,res);
+  res.render('sun');
 })
 
 app.get('/mercury', (req,res)=> {
-  randomImage(req,res);
+   res.render('mercury');
+
 })
 
 app.get('/venus', (req,res)=> {
-  randomImage(req,res);
+   res.render('venus');
+
 })
 
 app.get('/earth', async (req, res) => {
@@ -33,7 +35,8 @@ app.get('/earth', async (req, res) => {
 });
 
 app.get('/mars', (req,res)=> {
-  randomImage(req,res);
+   res.render('mars');
+
 })
 
 //server listens for requests on port 3000
