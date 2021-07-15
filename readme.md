@@ -19,4 +19,4 @@
 - Creating and applying partial files (“partials”)
 
 ### Rubric:
-![rubric](/documentation/rubric.jpg)
+![rubric](/documentation/rubric.JPG)
