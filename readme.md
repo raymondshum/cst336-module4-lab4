@@ -14,8 +14,6 @@
 
 ## _Lab 4: Express (Solar System)_
 
----
-
 [![Run on Repl.it](https://repl.it/badge/github/raymondshum/cst336-module4-lab4)](https://cst336-module4-lab4--raymondshum.repl.co/)
 
 **Objective:**
